@@ -11,10 +11,10 @@ python -m pip install -r requirements-project.txt
 streamlit run app.py
 ```
 
-Place `laptops_cleaned.csv` at `data/processed/laptops_cleaned.csv` and the supplemental `smartprix_laptop.csv` at `data/raw/smartprix_laptop.csv` before launching. The app uses the supplemental file automatically when it is present.
+Both datasets are included in this repository at `data/processed/laptops_cleaned.csv` and `data/raw/smartprix_laptop.csv`. The app loads the supplemental Smartprix file automatically.
 
 ## Data source and limits
 
 The project combines the [public Indian laptop specifications dataset](https://github.com/abhinavflac/laptops-specs-dataset) with the [Smartprix laptop specs and prices dataset](https://www.kaggle.com/datasets/souravghosh999/laptop-specifications-and-prices-smartprix). The added Smartprix rows include image URLs and supplement brand, GPU, CPU, RAM, storage, display and price coverage. Both sources are dataset snapshots; they do not provide live cross-store offers or current availability.
 
-Dataset files are kept local and are not included in this repository. Download each CSV from its linked source and use the paths above.
+The CSV snapshots are included for this student project. Their original sources are linked above; the listings are not live and may become outdated.
